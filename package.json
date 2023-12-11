@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "minimatch": "^3.0.4"
+  },
+  "name": "twcss_lesson2",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.5.9"
+  },
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
+    "prettier": "npx prettier --write ./build/*.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
